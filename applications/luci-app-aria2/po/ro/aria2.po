@@ -1,34 +1,35 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-17 12:16+0000\n"
-"Last-Translator: Eric <spice2wolf@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"openwrt/luciapplicationsaria2/zh_Hans/>\n"
-"Language: zh_Hans\n"
+"PO-Revision-Date: 2021-12-12 23:09+0000\n"
+"Last-Translator: Simona Iacob <s@zp1.net>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationsaria2/ro/>\n"
+"Language: ro\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:296
 msgid "<abbr title=\"Local Peer Discovery\">LPD</abbr> enabled"
-msgstr "启用 <abbr title=\"本地对等发现\">LPD</abbr>"
+msgstr "<abbr title=\"Local Peer Discovery\">LPD</abbr> activat"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:414
 msgid "Additional BT tracker"
-msgstr "附加的 BT Tracker"
+msgstr "Urmăritor BT suplimentar"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:419
 msgid "Advanced Options"
-msgstr "高级选项"
+msgstr "Opțiuni avansate"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:169
 msgid "All proxy"
-msgstr "全局代理"
+msgstr "Toate proxy"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:228
 msgid "Append HEADERs to HTTP request header."
-msgstr "附加的 HTTP 请求头。"
+msgstr "Adăugați HEADER-uri la antetul cererii HTTP."
 
 #: applications/luci-app-aria2/luasrc/controller/aria2.lua:17
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:35
@@ -41,226 +42,236 @@ msgstr "Aria2"
 msgid ""
 "Aria2 is a lightweight multi-protocol &amp; multi-source, cross platform "
 "download utility."
-msgstr "Aria2 是一个轻量、多线程，跨平台的下载工具。"
+msgstr ""
+"Aria2 este un utilitar ușor de descărcare multi-protocol &amp; multi-sursă, "
+"cross platform."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:428
 msgid "Auto save interval"
-msgstr "自动保存间隔"
+msgstr "Interval de salvare automată"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:56
 msgid "Basic Options"
-msgstr "基本选项"
+msgstr "Opțiuni de bază"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:276
 msgid "BitTorrent Options"
-msgstr "BT 选项"
+msgstr "Opțiuni BitTorrent"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:335
 msgid "BitTorrent listen port"
-msgstr "BT监听端口"
+msgstr "Port de ascultare BitTorrent"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:189
 msgid "CA certificate"
-msgstr "CA 证书"
+msgstr "Certificat CA"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:195
 msgid "Certificate"
-msgstr "证书"
+msgstr "Certificat"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:182
 msgid "Check certificate"
-msgstr "检查证书"
+msgstr "Verificați certificatul"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:242
 msgid ""
 "Close connection if download speed is lower than or equal to this value "
 "(bytes per sec). 0 means has no lowest speed limit."
 msgstr ""
-"如果速度小于或等于这个速度（字节/秒），关闭下载下载连接。0 表示不限制下载速"
-"度。"
+"Închide conexiunea dacă viteza de descărcare este mai mică sau egală cu "
+"această valoare (octeți pe secundă). 0 înseamnă că nu are o limită de viteză "
+"minimă."
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:49
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:29
 msgid "Collecting data..."
-msgstr "正在收集数据…"
+msgstr "Colectare date..."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:73
 msgid "Config file directory"
-msgstr "配置文件目录"
+msgstr "Directorul fișierului de configurare"
 
 #: applications/luci-app-aria2/luasrc/controller/aria2.lua:22
 msgid "Configuration"
-msgstr "配置"
+msgstr "Configurație"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:230
 msgid "Connect timeout"
-msgstr "连接超时时间"
+msgstr "Pauză de conectare"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:19
 msgid "Content of config file: <code>%s</code>"
-msgstr "配置文件的内容：<code>%s</code>"
+msgstr "Conținutul fișierului de configurare: <code>%s</code>"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:29
 msgid "Content of session file: <code>%s</code>"
-msgstr "会话文件的内容：<code>%s</code>"
+msgstr "Conținutul fișierului de sesiune: <code>%s</code>"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:341
 msgid "DHT Listen port"
-msgstr "DHT 监听端口"
+msgstr "Port de ascultare DHT"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:87
 msgid "Debug"
-msgstr "调试"
+msgstr "Depanare"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:422
 msgid ""
 "Disable IPv6. This is useful if you have to use broken DNS and want to avoid "
 "terribly slow AAAA record lookup."
 msgstr ""
-"禁用 IPv6。如果你的 DNS 有问题并希望避免 AAAA 查询过慢，可以启用此选项。"
+"Dezactivați IPv6. Acest lucru este util dacă trebuie să folosiți un DNS "
+"stricat și doriți să evitați căutarea teribil de lentă a înregistrărilor "
+"AAAA."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:440
 msgid "Disk cache"
-msgstr "磁盘缓存"
+msgstr "Memoria cache a discului"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:259
 msgid "Don't split less than 2*SIZE byte range. Possible values: 1M-1024M."
-msgstr "当数据小于 2*SIZE 时不分割。可能的值：1M-1024M。"
+msgstr ""
+"Nu împărțiți mai puțin de 2*SIZE interval de octeți. Valori posibile: "
+"1M-1024M."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:254
 msgid "Download a file using N connections."
-msgstr "使用 N 个线程下载文件。"
+msgstr "Descărcați un fișier utilizând N conexiuni."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:69
 msgid "Download directory"
-msgstr "下载目录"
+msgstr "Director de descărcare"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:26
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:36
 msgid "Empty file."
-msgstr "文件为空。"
+msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:280
 msgid "Enable IPv4 DHT functionality. It also enables UDP tracker support."
-msgstr "启用 IPv4 DHT 功能。会同时启用 UDP Tracker 支持。"
+msgstr ""
+"Activați funcționalitatea DHT IPv4. De asemenea, activează suportul pentru "
+"tracker UDP."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:290
 msgid "Enable IPv6 DHT functionality."
-msgstr "启用 IPv6 DHT 功能。"
+msgstr "Activați funcționalitatea IPv6 DHT."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:298
 msgid "Enable Local Peer Discovery."
-msgstr "启用本地 Peer 查找。"
+msgstr "Activați Local Peer Discovery."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:307
 msgid "Enable Peer Exchange extension."
-msgstr "启用 Peer 交换扩展。"
+msgstr "Activați extensia Peer Exchange."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:442
 msgid "Enable disk cache (in bytes), set 0 to disabled."
-msgstr "启用硬盘缓存（以字节为单位），0 表示禁用。"
+msgstr ""
+"Activează memoria cache de disc (în octeți), setați 0 pentru dezactivare."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:77
 msgid "Enable logging"
-msgstr "启用日志"
+msgstr "Activează fișierul log"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:305
 msgid "Enable peer exchange"
-msgstr "启用对等交换"
+msgstr "Activați schimbul de omologi"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:166
 msgid "Enable proxy"
-msgstr "启用代理"
+msgstr "Activați proxy"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:58
 msgid "Enabled"
-msgstr "已启用"
+msgstr "Activat"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:91
 msgid "Error"
-msgstr "错误"
+msgstr "Eroare"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:44
 msgid "Error: Can't find aria2c in PATH, please reinstall aria2."
-msgstr "错误：未在 PATH 中找到 aria2c，请重新安装 Aria2。"
+msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:482
 msgid "Extra Settings"
-msgstr "附加选项"
+msgstr "Setări suplimentare"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:39
 msgid "Failed to load log data."
-msgstr "获取日志数据失败。"
+msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:350
 msgid "False"
-msgstr "否"
+msgstr "Fals"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:447
 msgid "File allocation"
-msgstr "文件分配"
+msgstr "Alocarea fișierelor"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:25
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:35
 msgid "File does not exist."
-msgstr "文件不存在。"
+msgstr ""
 
 #: applications/luci-app-aria2/luasrc/controller/aria2.lua:25
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:14
 msgid "Files"
-msgstr "文件"
+msgstr "Fișiere"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:348
 msgid "Follow torrent"
-msgstr "自动添加下载的种子"
+msgstr "Urmăriți torrent"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:38
 msgid "For more information, please visit: %s"
-msgstr "获取更多信息，请访问：%s"
+msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:460
 msgid "Force save"
-msgstr "强制保存"
+msgstr "Forțați salvarea"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:129
 msgid "Generate Randomly"
-msgstr "随机生成"
+msgstr "Generați aleatoriu"
 
 #: applications/luci-app-aria2/root/usr/share/rpcd/acl.d/luci-app-aria2.json:3
 msgid "Grant UCI access for luci-app-aria2"
-msgstr "允许 luci-app-aria2 访问 UCI"
+msgstr "Acordă acces la UCI pentru luci-app-aria2"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:210
 msgid "HTTP accept gzip"
-msgstr "HTTP 接受 Gzip"
+msgstr "HTTP acceptă gzip"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:219
 msgid "HTTP no cache"
-msgstr "HTTP 无缓存"
+msgstr "HTTP fără cache"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:164
 msgid "HTTP/FTP/SFTP Options"
-msgstr "HTTP/FTP/SFTP 选项"
+msgstr "Opțiuni HTTP/FTP/SFTP"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:227
 msgid "Header"
-msgstr "请求头"
+msgstr "Antet"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:15
 msgid "Here shows the files used by aria2."
-msgstr "这里展示了 Aria2 使用的文件。"
+msgstr "Aici sunt prezentate fișierele utilizate de aria2."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:278
 msgid "IPv4 <abbr title=\"Distributed Hash Table\">DHT</abbr> enabled"
-msgstr "启用 IPv4 <abbr title=\"分布式哈希表\">DHT</abbr>"
+msgstr "IPv4 <abbr title=\"Distributed Hash Table\">DHT</abbr> activat"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:288
 msgid "IPv6 <abbr title=\"Distributed Hash Table\">DHT</abbr> enabled"
-msgstr "启用 IPv6 <abbr title=\"分布式哈希表\">DHT</abbr>"
+msgstr "IPv6 <abbr title=\"Distributed Hash Table\">DHT</abbr> activat"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:421
 msgid "IPv6 disabled"
-msgstr "禁用 IPv6"
+msgstr "IPv6 dezactivat"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:379
 msgid ""
@@ -269,246 +280,254 @@ msgid ""
 "Configuring this option with your preferred download speed can increase your "
 "download speed in some cases."
 msgstr ""
-"如果某个 BT 任务的下载速度小于配置的速度，Aria2 会临时提高对端的数量来尝试获"
-"得更大的下载速度。在某些情况下，配置此选项能提高你的下载速度。"
+"Dacă viteza totală de descărcare a fiecărui torrent este mai mică decât "
+"SPEED, aria2 mărește temporar numărul de omologi pentru a încerca să obțină "
+"o viteză de descărcare mai mare. Configurarea acestei opțiuni cu viteza de "
+"descărcare preferată poate crește viteza de descărcare în unele cazuri."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:88
 msgid "Info"
-msgstr "信息"
+msgstr "Informații"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:33
 msgid "Installed web interface:"
-msgstr "已安装的 WEB 界面："
+msgstr "Interfață web instalată:"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:158
 msgid "Json-RPC URL"
-msgstr "Json-RPC 统一资源定位地址"
+msgstr "URL Json-RPC"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:351
 msgid "Keep in memory"
-msgstr "保存在内存中"
+msgstr "Păstrați în memorie"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:34
 msgid "Last 50 lines of log file:"
-msgstr "日志文件的最新 50 行："
+msgstr "Ultimele 50 de linii din fișierul jurnal:"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:36
 msgid "Last 50 lines of syslog:"
-msgstr "系统日志的最新 50 行："
+msgstr "Ultimele 50 de linii din syslog:"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:62
 msgid "Leave blank to use default user."
-msgstr "留空以使用默认用户。"
+msgstr "Lăsați gol pentru a utiliza utilizatorul implicit."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:415
 msgid "List of additional BitTorrent tracker's announce URI."
-msgstr "额外的 BT Tracker 通告链接。"
+msgstr "Listă de anunțuri URI suplimentare ale trackerilor BitTorrent."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:488
 msgid ""
 "List of extra settings. Format: option=value, eg. <code>netrc-path=/tmp/."
 "netrc</code>."
 msgstr ""
-"额外设置的列表。格式：选项=值，例如：<code>netrc-path=/tmp/.netrc</code>。"
+"Lista de setări suplimentare. Format: option=valoare, de exemplu, "
+"<code>netrc-path=/tmp/.netrc</code>."
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:48
 msgid "Loading"
-msgstr "加载中"
+msgstr "Încărcare"
 
 #: applications/luci-app-aria2/luasrc/controller/aria2.lua:28
 msgid "Log"
-msgstr "日志"
+msgstr "Jurnal"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:45
 msgid "Log Data"
-msgstr "日志数据"
+msgstr "Jurnal de date"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:80
 msgid "Log file"
-msgstr "日志文件"
+msgstr "Fișier jurnal"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:85
 msgid "Log level"
-msgstr "日志记录等级"
+msgstr "Nivel de jurnal"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:240
 msgid "Lowest speed limit"
-msgstr "最低限速"
+msgstr "Cea mai mică limită de viteză"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:94
 msgid "Max concurrent downloads"
-msgstr "最大同时下载任务数"
+msgstr "Descărcări simultane maxime"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:248
 msgid "Max connection per server"
-msgstr "单服务器最大连接数"
+msgstr "Conexiune maximă pe server"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:475
 msgid "Max download limit"
-msgstr "最大下载限速"
+msgstr "Limita maximă de descărcare"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:253
 msgid "Max number of split"
-msgstr "单文件最大线程数"
+msgstr "Numărul maxim de diviziuni"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:367
 msgid "Max open files"
-msgstr "最大打开文件数"
+msgstr "Număr maxim de fișiere deschise"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:468
 msgid "Max overall download limit"
-msgstr "最大全局下载限速"
+msgstr "Limita maximă de descărcare globală"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:353
 msgid "Max overall upload limit"
-msgstr "最大全局上传限速"
+msgstr "Limita maximă de încărcare globală"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:372
 msgid "Max peers"
-msgstr "最大 Peer 数量"
+msgstr "Maximul de perechi"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:262
 msgid "Max tries"
-msgstr "最大重试次数"
+msgstr "Numărul maxim de încercări"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:360
 msgid "Max upload limit"
-msgstr "最大上传限速"
+msgstr "Limita maximă de încărcare"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:258
 msgid "Min split size"
-msgstr "最小文件分片大小"
+msgstr "Dimensiunea minimă de divizare"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:115
 msgid "No Authentication"
-msgstr "无认证"
+msgstr "Fără autentificare"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:35
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:37
 msgid "No log data."
-msgstr "无日志数据。"
+msgstr "Nu există date de jurnal."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:454
 msgid "None"
-msgstr "无"
+msgstr "Nici unul"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:89
 msgid "Notice"
-msgstr "注意"
+msgstr "Aviz"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:99
 msgid "Pause"
-msgstr "暂停"
+msgstr "Pauză"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:99
 msgid "Pause download after added."
-msgstr "在下载任务添加后暂停。"
+msgstr "Întrerupeți descărcarea după adăugare."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:105
 msgid "Pause downloads created as a result of metadata download."
-msgstr "暂停下载内容为元数据的下载（磁力链接和 Matalink）。"
+msgstr "Întrerupe descărcările create ca urmare a descărcării metadatelor."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:104
 msgid "Pause metadata"
-msgstr "暂停元数据"
+msgstr "Pauză metadate"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:64
 msgid "Please input token length:"
-msgstr "请输入密钥长度："
+msgstr "Vă rugăm să introduceți lungimea token-ului:"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:393
 msgid "Prefix of peer ID"
-msgstr "对端 ID 前缀"
+msgstr "Prefixul ID-ului omologului"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:203
 msgid "Private key"
-msgstr "私钥"
+msgstr "Cheie privată"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:177
 msgid "Proxy password"
-msgstr "代理密码"
+msgstr "Parola Proxy"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:174
 msgid "Proxy user"
-msgstr "代理用户名"
+msgstr "Utilizator proxy"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:97
 msgid "RPC Options"
-msgstr "RPC 选项"
+msgstr "Opțiuni RPC"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:114
 msgid "RPC authentication method"
-msgstr "RPC 认证方式"
+msgstr "Metoda de autentificare RPC"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:140
 msgid "RPC certificate"
-msgstr "RPC 证书"
+msgstr "Certificat RPC"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:122
 msgid "RPC password"
-msgstr "RPC 密码"
+msgstr "Parolă RPC"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:110
 msgid "RPC port"
-msgstr "RPC 端口"
+msgstr "Port RPC"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:149
 msgid "RPC private key"
-msgstr "RPC 私钥"
+msgstr "Cheia privată RPC"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:133
 msgid "RPC secure"
-msgstr "RPC 加密"
+msgstr "RPC securizat"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:126
 msgid "RPC token"
-msgstr "RPC 令牌"
+msgstr "Token RPC"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:134
 msgid ""
 "RPC transport will be encrypted by SSL/TLS. The RPC clients must use https "
 "scheme to access the server. For WebSocket client, use wss scheme."
 msgstr ""
-"用 SSL/TLS 加密 RPC 连接。RPC 客户端必须使用 HTTPS 协议来连接服务端，对于 "
-"WebSocket 客户端，则使用 WSS 协议。"
+"Transportul RPC va fi criptat prin SSL/TLS. Clienții RPC trebuie să "
+"utilizeze schema https pentru a accesa serverul. Pentru clientul WebSocket, "
+"utilizați schema wss."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:119
 msgid "RPC username"
-msgstr "RPC 用户名"
+msgstr "Nume de utilizator RPC"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:51
 msgid "Refresh every 10 seconds."
-msgstr "每 10 秒刷新。"
+msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:322
 msgid "Remove unselected file"
-msgstr "删除未选择的文件"
+msgstr "Eliminați fișierul neselectat"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:323
 msgid ""
 "Removes the unselected files when download is completed in BitTorrent. "
 "Please use this option with care because it will actually remove files from "
 "your disk."
-msgstr "BT 下载完成时删除未选择的文件。文件将从磁盘中被完全删除，请谨慎使用。"
+msgstr ""
+"Elimină fișierele neselectate la finalizarea descărcării în BitTorrent. Vă "
+"rugăm să folosiți această opțiune cu atenție, deoarece va elimina efectiv "
+"fișierele de pe disc."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:377
 msgid "Request peer speed limit"
-msgstr "单个 Peer 限速"
+msgstr "Solicitarea limitei de viteză între colegi"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:266
 msgid "Retry wait"
-msgstr "重试等待"
+msgstr "Reîncercare așteptare"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:61
 msgid "Run daemon as user"
-msgstr "以此用户权限运行"
+msgstr "Rulați daemonul ca utilizator"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:429
 msgid ""
 "Save a control file (*.aria2) every N seconds. If 0 is given, a control file "
 "is not saved during download."
 msgstr ""
-"每 N 秒保存下载“控制文件”（*.aria2）。设置 0 表示在下载过程中不保存控制文件。"
+"Salvează un fișier de control (*.aria2) la fiecare N secunde. Dacă se dă 0, "
+"nu se salvează un fișier de control în timpul descărcării."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:461
 msgid ""
@@ -516,16 +535,18 @@ msgid ""
 "This option also saves control file in that situations. This may be useful "
 "to save BitTorrent seeding which is recognized as completed state."
 msgstr ""
-"即使下载已完成或已删除，也将其保存到会话文件。开启此选项也会同时保存“控制文"
-"件”。此选项可能有助于保持被识别为已完成状态的 BT 做种。"
+"Salvați descărcarea în fișierul de sesiune chiar dacă descărcarea este "
+"finalizată sau eliminată. Această opțiune salvează, de asemenea, fișierul de "
+"control în aceste situații. Acest lucru poate fi util pentru a salva "
+"semănarea BitTorrent care este recunoscută ca fiind finalizată."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:435
 msgid ""
 "Save error/unfinished downloads to session file every N seconds. If 0 is "
 "given, file will be saved only when aria2 exits."
 msgstr ""
-"每 N 秒将失败的/未完成的下载保存到 Session 文件。设置 0 则仅在 Aria2 退出时保"
-"存。"
+"Salvați descărcările eronate/nefinalizate în fișierul de sesiune la fiecare "
+"N secunde. Dacă se dă 0, fișierul va fi salvat numai când aria2 iese."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:316
 msgid ""
@@ -533,32 +554,35 @@ msgid ""
 "BitTorrent Magnet URI is used. The file name is hex encoded info hash with "
 "suffix \".torrent\"."
 msgstr ""
-"将元数据保存到 \".torrent\" 文件。此选项仅在下载连接为 BT 磁力链接时生效。文"
-"件名为 Hash 值，后缀为 \".torrent\"。"
+"Salvați datele meta ca fișier \".torrent\". Această opțiune are efect numai "
+"atunci când se utilizează BitTorrent Magnet URI. Numele fișierului este un "
+"hash de informații codificat hexagonal cu sufixul \".torrent\"."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:315
 msgid "Save metadata"
-msgstr "保存元数据"
+msgstr "Salvarea metadatelor"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:434
 msgid "Save session interval"
-msgstr "会话保存间隔"
+msgstr "Salvare interval de sesiune"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:330
 msgid "Seed previously downloaded files without verifying piece hashes."
-msgstr "继续之前的BT任务时, 无需再次校验分片 Hash。"
+msgstr ""
+"Însămânțarea fișierelor descărcate anterior fără a verifica hașurile "
+"pieselor."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:401
 msgid "Seed ratio"
-msgstr "做种比率"
+msgstr "Raportul de semințe"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:408
 msgid "Seed time"
-msgstr "做种时间"
+msgstr "Timp de însămânțare"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:329
 msgid "Seed unverified"
-msgstr "不校验种子"
+msgstr "Seed neverificat"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:211
 msgid ""
@@ -566,9 +590,9 @@ msgid ""
 "if remote server responds with <code>Content-Encoding: gzip</code> or "
 "<code>Content-Encoding: deflate</code>."
 msgstr ""
-"发送 <code>Accept: deflate, gzip</code> 请求头，当服务器响应头包含 "
-"<code>Content-Encoding: gzip</code> 或者 <code>Content-Encoding: deflate</"
-"code> 时解压响应数据。"
+"Trimiteți <code>Trimiteți: deflate, gzip</code> antetul cererii și extinde "
+"răspunsul dacă serverul la distanță răspunde cu <code>Content-Encoding: "
+"gzip</code> or <code>Content-Encoding: deflate</code>."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:220
 msgid ""
@@ -577,9 +601,10 @@ msgid ""
 "you can add Cache-Control header with a directive you like using \"Header\" "
 "option."
 msgstr ""
-"发送 <code>Cache-Control: no-cache</code> 和 <code>Pragma: no-cache</code> 请"
-"求头来防止缓存内容，禁用则不发送。你也可用使用“请求头”选项来设置 Cache-"
-"Control 请求头。"
+"Trimiteți antetul <code>Cache-Control: no-cache</code> și <code>Pragma: no-"
+"cache</code> pentru a evita conținutul din memoria cache. Dacă sunt "
+"dezactivate, aceste antete nu sunt trimise și puteți adăuga antetul Cache-"
+"Control cu o directivă pe care o doriți folosind opțiunea \"Header\"."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:336
 msgid ""
@@ -587,34 +612,44 @@ msgid ""
 "\"6881-6999\" and \"6881-6889,6999\". Make sure that the specified ports are "
 "open for incoming TCP traffic."
 msgstr ""
-"为 BT 下载设置 TCP 端口。支持的格式：\"6881,6885\"，\"6881-6999\" 和 "
-"\"6881-6889,6999\"。请确保正确放行了这些端口的 TCP 入站通信。"
+"Setați numărul portului TCP pentru descărcările BitTorrent. Acceptă "
+"formatul: \"6881,6885\", \"6881-6999\" și \"6881-6889,6999\". Asigurați-vă "
+"că porturile specificate sunt deschise pentru traficul TCP de intrare."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:342
 msgid ""
 "Set UDP listening port used by DHT (IPv4, IPv6) and UDP tracker. Make sure "
 "that the specified ports are open for incoming UDP traffic."
 msgstr ""
-"为 DHT（IPv4，IPv6）和 UDP tracker 设置 UDP 监听端口。请确保正确放行了这些端"
-"口的 UDP 入站通信。"
+"Setați portul de ascultare UDP utilizat de DHT (IPv4, IPv6) și de UDP "
+"tracker. Asigurați-vă că porturile specificate sunt deschise pentru traficul "
+"UDP de intrare."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:477
 msgid ""
 "Set max download speed per each download in bytes/sec. 0 means unrestricted."
-msgstr "设置每个任务的最大下载速度（字节/秒），0 表示不限制。"
+msgstr ""
+"Setați viteza maximă de descărcare pentru fiecare descărcare în bytes/sec. 0 "
+"înseamnă fără restricții."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:470
 msgid "Set max overall download speed in bytes/sec. 0 means unrestricted."
-msgstr "设置全局最大下载速度（字节/秒），0 表示不限制。"
+msgstr ""
+"Setați viteza maximă totală de descărcare în bytes/sec. 0 înseamnă fără "
+"restricții."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:355
 msgid "Set max overall upload speed in bytes/sec. 0 means unrestricted."
-msgstr "设置全局最大上传速度，0 表示不限制。"
+msgstr ""
+"Setați viteza maximă totală de încărcare în bytes/sec. 0 înseamnă fără "
+"restricții."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:362
 msgid ""
 "Set max upload speed per each torrent in bytes/sec. 0 means unrestricted."
-msgstr "设置每个任务的最大上传速度（字节/秒），0 表示不限制。"
+msgstr ""
+"Setați viteza maximă de încărcare pentru fiecare torrent în bytes/sec. 0 "
+"înseamnă fără restricții."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:231
 msgid ""
@@ -622,32 +657,35 @@ msgid ""
 "server. After the connection is established, this option makes no effect and "
 "\"Timeout\" option is used instead."
 msgstr ""
-"设置 HTTP、FTP 和代理服务器的连接超时时间。当连接建立后，该选项失去作用，"
-"而“超时时间”选项会被使用。"
+"Setați timpul de așteptare a conectării în secunde pentru stabilirea "
+"conexiunii la serverul HTTP/FTP/proxy. După stabilirea conexiunii, această "
+"opțiune nu mai are niciun efect și în locul ei se utilizează opțiunea "
+"\"Timeout\"."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:267
 msgid "Set the seconds to wait between retries."
-msgstr "设置重试的时间间隔。"
+msgstr "Setați secundele de așteptare între reintrări."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:272
 msgid "Set user agent for HTTP(S) downloads."
-msgstr "为 HTTP(S) 下载设置用户代理。"
+msgstr "Setați agentul utilizatorului pentru descărcările HTTP(S)."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:35
 msgid "Settings"
-msgstr "设置"
+msgstr "Setări"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:483
 msgid "Settings in this section will be added to config file."
-msgstr "这个区域中的配置信息将被添加到配置文件中。"
+msgstr ""
+"Setările din această secțiune vor fi adăugate la fișierul de configurare."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:487
 msgid "Settings list"
-msgstr "设置列表"
+msgstr "Lista de setări"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:161
 msgid "Show URL"
-msgstr "显示 URL"
+msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:448
 msgid ""
@@ -659,17 +697,22 @@ msgid ""
 "FAT32 because it takes almost same time as \"prealloc\" and it blocks aria2 "
 "entirely until allocation finishes."
 msgstr ""
-"指定文件分配方式。如果你使用的文件系统较新，例如：ext4（支持扩展分区），"
-"btrfs，xfs 或者 NTFS（仅限 MinGW 版本），强烈推荐 \"falloc\"，这种方式几乎能"
-"立即分配比较大的文件（GB），但是它要求你的系统支持 posix_fallocate(3) 函数。"
-"不要在 ext3 或者 FAT32 这些旧文件系统中使用 \"falloc\"，因为它花费的时间和 "
-"\"prealloc\" 几乎一样多，而且在文件分配过程中会阻塞整个 Aria2 进程。"
+"Specificați metoda de alocare a fișierelor. Dacă utilizați sisteme de "
+"fișiere mai noi, cum ar fi ext4 (cu suport pentru extents), btrfs, xfs sau "
+"NTFS (numai în versiunea MinGW), \"falloc\" este cea mai bună alegere. "
+"Aceasta alocă fișiere mari (câțiva GiB) aproape instantaneu, dar este "
+"posibil să nu fie disponibilă dacă sistemul dvs. nu are funcția "
+"posix_fallocate(3). Nu folosiți \"falloc\" cu sisteme de fișiere vechi, cum "
+"ar fi ext3 și FAT32, deoarece durează aproape la fel de mult ca \"prealloc\" "
+"și blochează aria2 în întregime până când se termină alocarea."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:368
 msgid ""
 "Specify maximum number of files to open in multi-file BitTorrent download "
 "globally."
-msgstr "设置 BT 全局最大同时下载的文件数量。"
+msgstr ""
+"Specificați numărul maxim de fișiere care urmează să fie deschise în "
+"descărcări BitTorrent cu mai multe fișiere la nivel global."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:409
 msgid ""
@@ -677,8 +720,10 @@ msgid ""
 "with this option, seeding ends when at least one of the conditions is "
 "satisfied. Specifying 0 disables seeding after download completed."
 msgstr ""
-"指定做种时间（分钟）。如果同时指定了“做种比率”选项，那么将在任一条件满足时停"
-"止做种。设置 0 表示下载完成后停止做种。"
+"Specificați timpul de însămânțare în minute. Dacă opțiunea \"Seed ratio\" "
+"este specificată împreună cu această opțiune, însămânțarea se încheie atunci "
+"când cel puțin una dintre condiții este îndeplinită. Dacă se specifică 0, se "
+"dezactivează însămânțarea după finalizarea descărcării."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:402
 msgid ""
@@ -686,12 +731,14 @@ msgid ""
 "RATIO. You are strongly encouraged to specify equals or more than 1.0 here. "
 "Specify 0.0 if you intend to do seeding regardless of share ratio."
 msgstr ""
-"指定做种比率。BT 下载完成之后持续做种，直到比率达到指定值。强烈建议将此选项设"
-"置为大于或等于 1.0。设置为 0.0 来无限做种。"
+"Precizați proporția de acțiuni. Însămânțați torrentele completate până când "
+"raportul de partajare atinge RATIO. Sunteți puternic încurajat să "
+"specificați egal sau mai mare de 1,0 aici. Specificați 0.0 dacă intenționați "
+"să efectuați însămânțarea indiferent de raportul de distribuire."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:373
 msgid "Specify the maximum number of peers per torrent, 0 means unlimited."
-msgstr "设置每个 BT 任务的最大 Peer 数量，0 表示不限制。"
+msgstr "Specificați numărul maxim de colegi pe torrent, 0 înseamnă nelimitat."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:394
 msgid ""
@@ -700,80 +747,91 @@ msgid ""
 "than 20 bytes are specified, random byte data are added to make its length "
 "20 bytes."
 msgstr ""
-"配置对端 ID 前缀。对端 ID 的长度为 20 字节。如果配置超过了 20 字节，将仅使用"
-"前面的 20 字节。如果配置少于 20 字节，将添加额外的随机字符来让长度达到 20 字"
-"节。"
+"Specificați prefixul ID-ului omologului. În BitTorrent, ID-ul peer are o "
+"lungime de 20 de octeți. Dacă sunt specificați mai mult de 20 de octeți, "
+"sunt utilizați doar primii 20 de octeți. Dacă sunt specificați mai puțin de "
+"20 de octeți, se adaugă date aleatorii de octeți pentru ca lungimea sa să "
+"fie de 20 de octeți."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:388
 msgid ""
 "Stop BitTorrent download if download speed is 0 in consecutive N seconds. If "
 "0 is given, this feature is disabled."
 msgstr ""
-"当 BT 任务在 N 秒的持续时间内的下载速度一直为 0，则停止下载。0 表示禁用。"
+"Oprește descărcarea BitTorrent dacă viteza de descărcare este 0 în N secunde "
+"consecutive. Dacă se dă 0, această funcție este dezactivată."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:387
 msgid "Stop timeout"
-msgstr "停止超时时间"
+msgstr "Oprire a timpului de așteptare"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:48
 msgid "The Aria2 service is not running."
-msgstr "Aria2 服务未运行。"
+msgstr "Serviciul Aria2 nu este în funcțiune."
 
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:47
 msgid "The Aria2 service is running."
-msgstr "Aria2 服务正在运行。"
+msgstr "Serviciul Aria2 este în funcțiune."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:74
 msgid "The directory to store the config file, session file and DHT file."
-msgstr "用于放置配置文件，会话文件和 DHT 文件的目录。"
+msgstr ""
+"Directorul în care se stochează fișierul de configurare, fișierul de sesiune "
+"și fișierul DHT."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:70
 msgid ""
 "The directory to store the downloaded file. For example <code>/mnt/sda1</"
 "code>."
-msgstr "用于放置下载文件的目录。例如：<code>/mnt/sda1</code>。"
+msgstr ""
+"Directorul în care se stochează fișierul descărcat. De exemplu <code>/mnt/"
+"sda1</code>."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:81
 msgid "The file name of the log file."
-msgstr "日志文件名。"
+msgstr "Numele fișierului de jurnal."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:249
 msgid "The maximum number of connections to one server for each download."
-msgstr "单一服务器最大连接数量。"
+msgstr "Numărul maxim de conexiuni la un server pentru fiecare descărcare."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:281
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:291
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:299
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:308
 msgid "This option will be ignored if a private flag is set in a torrent."
-msgstr "如果种子文件具有“私有”属性，该选项将会被忽略。"
+msgstr ""
+"Această opțiune va fi ignorată în cazul în care un indicator privat este "
+"setat într-un torrent."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:236
 msgid "Timeout"
-msgstr "超时"
+msgstr "Termen de expirare"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:117
 msgid "Token"
-msgstr "令牌"
+msgstr "Token"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:349
 msgid "True"
-msgstr "是"
+msgstr "Adevărat"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:156
 msgid "Use WebSocket"
-msgstr "使用 WebSocket"
+msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:170
 msgid "Use a proxy server for all protocols."
-msgstr "为所有协议设置代理服务器。"
+msgstr "Utilizați un server proxy pentru toate protocoalele."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:190
 msgid ""
 "Use the certificate authorities in FILE to verify the peers. The certificate "
 "file must be in PEM format and can contain multiple CA certificates."
 msgstr ""
-"使用文件中的证书来验证对端。证书文件必须为 PEM 格式并且可以包含多个证书。"
+"Utilizați autoritățile de certificare din FILE pentru a verifica omologii. "
+"Fișierul de certificate trebuie să fie în format PEM și poate conține mai "
+"multe certificate CA."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:141
 msgid ""
@@ -783,9 +841,12 @@ msgid ""
 "PKCS12 files with a blank import password can be opened!<br/>When using PEM, "
 "you have to specify the \"RPC private key\" as well."
 msgstr ""
-"使用文件中的证书作为 RPC 服务器。证书必须为 PKCS12 (.p12, .pfx) 或者 PEM 格"
-"式。<br/>PKCS12 文件必须包含证书，一个密钥和可选的附加证书链。只有导入密码为"
-"空白的 PKCS12 文件才能被打开。<br/>使用 PEM 时，你必须同时指定“RPC 私钥”。"
+"Utilizați certificatul din FILE pentru serverul RPC. Certificatul trebuie să "
+"fie în format PKCS12 (.p12, .pfx) sau în format PEM.<br/>Arhivele PKCS12 "
+"trebuie să conțină certificatul, o cheie și, opțional, un lanț de "
+"certificate suplimentare. Numai fișierele PKCS12 cu o parolă de import goală "
+"pot fi deschise!<br/>În cazul în care se utilizează PEM, trebuie să "
+"specificați și \"cheia privată RPC\"."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:196
 msgid ""
@@ -795,38 +856,48 @@ msgid ""
 "PKCS12 files with a blank import password can be opened!<br/>When using PEM, "
 "you have to specify the \"Private key\" as well."
 msgstr ""
-"使用文件中的客户端证书。证书必须为 PKCS12 (.p12, .pfx) 或者 PEM 格式。<br/"
-">PKCS12 文件必须包含证书，一个密钥和可选的附加证书链。只有导入密码为空白的 "
-"PKCS12 文件才能被打开。<br/>使用 PEM 时，你必须同时指定“RPC 私钥”。"
+"Utilizați certificatul clientului din FILE. Certificatul trebuie să fie în "
+"format PKCS12 (.p12, .pfx) sau în format PEM.<br/>Arhivele PKCS12 trebuie să "
+"conțină certificatul, o cheie și, opțional, un lanț de certificate "
+"suplimentare. Numai fișierele PKCS12 cu o parolă de import goală pot fi "
+"deschise!<br/>În cazul în care se utilizează PEM, trebuie să specificați și "
+"\"Cheia privată\"."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:150
 msgid ""
 "Use the private key in FILE for RPC server. The private key must be "
 "decrypted and in PEM format."
-msgstr "使用文件中的私钥作为 RPC 服务器。私钥必须解密并且为 PEM 格式。"
+msgstr ""
+"Utilizați cheia privată din FILE pentru serverul RPC. Cheia privată trebuie "
+"să fie decriptată și în format PEM."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:204
 msgid ""
 "Use the private key in FILE. The private key must be decrypted and in PEM "
 "format. The behavior when encrypted one is given is undefined."
-msgstr "使用文件中的私钥。私钥必须解密并且为 PEM 格式，不支持加密的私钥。"
+msgstr ""
+"Utilizați cheia privată din FILE. Cheia privată trebuie să fie decriptată și "
+"în format PEM. Comportamentul în cazul în care este furnizată una criptată "
+"este nedefinit."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:271
 msgid "User agent"
-msgstr "用户代理"
+msgstr "Agent utilizator"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:116
 msgid "Username & Password"
-msgstr "用户名与密码"
+msgstr "Nume de utilizator & Parolă"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:183
 msgid ""
 "Verify the peer using certificates specified in \"CA certificate\" option."
-msgstr "使用“CA 证书”里配置的证书来验证对端。"
+msgstr ""
+"Verificați omologul folosind certificatele specificate în opțiunea \"CA "
+"certificate\"."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:90
 msgid "Warn"
-msgstr "警告"
+msgstr "Avertizare"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:244
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:356
@@ -836,16 +907,16 @@ msgstr "警告"
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:471
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:478
 msgid "You can append K or M."
-msgstr "你可以追加 K 或者 M。"
+msgstr "Puteți adăuga K sau M."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:457
 msgid "falloc"
-msgstr "falloc系统调测"
+msgstr "falloc"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:455
 msgid "prealloc"
-msgstr "预分配"
+msgstr "prealloc"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:456
 msgid "trunc"
-msgstr "trunc系统调测"
+msgstr "trunc"
