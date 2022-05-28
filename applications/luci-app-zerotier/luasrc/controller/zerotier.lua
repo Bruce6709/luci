@@ -5,7 +5,7 @@ function index()
 		return
 	end
 
-	entry({"admin","vpn"}, firstchild(), "VPN", 45).dependent = false
+	entry({"admin","nas"}, firstchild(), "VPN", 45).dependent = false
 
 	entry({"admin", "vpn", "zerotier"},firstchild(), _("ZeroTier")).dependent = false
 
